@@ -30,7 +30,8 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
     .then(res => res.json())
     .then(data => {
         if (data.status === 'success') {
-            window.location.href = "dashboard.html";
+            // window.location.href = "dashboard.html";
+            alert(data.message);
         } else {
             alert(data.message);
         }

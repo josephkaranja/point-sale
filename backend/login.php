@@ -22,7 +22,7 @@ if ($result->num_rows > 0) {
         exit();
     }
 } else {
-    echo "<script>alert('Invalid username or password');window.location.href='../index.html';</script>";
+    echo json_encode(['status'=> 'error', 'message' => 'Invalid username or password']);
 }
 $conn->close();
 ?>
