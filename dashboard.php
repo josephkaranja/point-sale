@@ -1,3 +1,7 @@
+<?php
+  include 'layouts/header.php';
+  include 'layouts/sidebar.php';
+?>
 <div class="pc-container">
     <div class="pc-content">
       @@include('../layouts/breadcrumb.html', {'breadcrumb-item': 'Dashboard', 'breadcrumb-item-active': 'Home'})
@@ -287,3 +291,6 @@
       </div>
     </div>
   </div>
+<?php
+  include 'layouts/footer.php';
+?>
