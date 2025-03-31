@@ -1,10 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
 <?php
-  include 'layouts/header.php';
-  include 'layouts/sidebar.php';
+include 'layouts/head_components.php';
 ?>
-<div class="pc-container">
+
+<body>
+  <?php
+  include 'layouts/loader.php';
+  include 'layouts/sidebar.php';
+  include 'layouts/header.php';
+  ?>
+  <div class="pc-container">
     <div class="pc-content">
-      @@include('../layouts/breadcrumb.html', {'breadcrumb-item': 'Dashboard', 'breadcrumb-item-active': 'Home'})
+      <?php include 'layouts/breadcrumb.php'; ?>
       <!-- [ Main Content ] start -->
       <div class="row">
         <!-- [ sample-page ] start -->
@@ -291,6 +299,9 @@
       </div>
     </div>
   </div>
-<?php
+  <?php
   include 'layouts/footer.php';
-?>
+  ?>
+</body>
+
+</html>
