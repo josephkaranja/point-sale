@@ -12,8 +12,8 @@
     </div>
   </div>
 </footer>
-<script src="../assets/js/plugins/apexcharts.min.js"></script>
-<script src="../assets/js/pages/dashboard-default.js"></script>
+<script src="assets/js/plugins/apexcharts.min.js"></script>
+<script src="assets/js/pages/dashboard-default.js"></script>
 <!-- [Page Specific JS] end -->
 <!-- Required Js -->
 <!-- <script src="../assets/js/plugins/popper.min.js"></script>
